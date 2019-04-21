@@ -13,7 +13,7 @@ h2{
     text-shadow: 2px 2px black;
 }
 
-.LoginPage{
+.AdminSignupPage{
   width: 360px;
   padding: 10px 0 0;
   margin: auto;
@@ -30,10 +30,11 @@ h2{
     left: 50%;
     color: deepskyblue;
     position: absolute;
+    opacity: 1;
 }
 
 
-.Login input{
+.AdminSignup input{
    
     padding: 15px;
     margin: 0 0 15px;
@@ -44,7 +45,7 @@ h2{
 }
 
 
-.Login button{
+.AdminSignup button{
   background-color: green;
   color: white;
   padding: 15px;
@@ -54,9 +55,9 @@ h2{
   width: 100%;
 }
 
-.Login a{
+.AdminSignup a{
     font-family: sans- serif;
-    color: honeydew;
+    color: blue;
     text-decoration: none;
     font-size: 14px;
     padding: 0;

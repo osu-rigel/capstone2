@@ -5,8 +5,7 @@ body{
     background-image: url("Image1.png");
 }
 
-h2
-{
+h2{
     text-align: center;
     font-size: 25px;
     font-family: sans-serif;
@@ -14,8 +13,7 @@ h2
     text-shadow: 2px 2px black;
 }
 
-h3
-{
+p{
    margin: 30px;
    text-align: center;
    font-size: 16px;
@@ -23,23 +21,26 @@ h3
    color: gold;
 }
 
-h4{
-    color: mediumaquamarine;
+.DashboardLinks{
+    background: transparent;
+    padding: 10px 0 0;
+    margin: auto;
 }
 
-.Links ul{
+.DashboardLinks ul{
     list-style: none;
     float: right;
     margin-top: 0;
+     background: transparent;
 }
 
-
-.Links ul li{
-    display: inline-block;  
+.DashboardLinks ul li{
+    display: inline-block;
+    background: transparent;
+   
 }
 
-
-.Links ul a{
+.DashboardLinks ul a{
     color: darkorange;
     display: inline-block;
     float:right;
@@ -51,19 +52,7 @@ h4{
     margin: 0 0 10px;
 }
 
-.Links ul a:hover {
+.DashboardLinks ul a:hover {
     color: Orange;
-    background: lightyellow;
+    background: yellow;
 }
-
-table{
-   
-    border-style: solid;
-    color: darkkhaki;
-}
-
-table, td, th {
-    border: 1px solid papayawhip;
-    
-}
-

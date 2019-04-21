@@ -13,7 +13,7 @@ h2{
     text-shadow: 2px 2px black;
 }
 
-.LoginPage{
+.UserSignupPage{
   width: 360px;
   padding: 10px 0 0;
   margin: auto;
@@ -30,36 +30,47 @@ h2{
     left: 50%;
     color: deepskyblue;
     position: absolute;
+    opacity: 1;
 }
 
 
-.Login input{
+.UserSignup input{
    
-    padding: 15px;
-    margin: 0 0 15px;
+    padding: 10px;
+    margin: 0 0 10px;
     border-style: solid;
     outline: 1;
     width: 91%;
     background-color: powderblue;
+    
+}
+
+.UserSignup select{
+    padding: 10px;
+    margin: 0 0 10px;
+    border: 2px solid black;
+    outline: 1;
+    width: 98%;
+    background-color: powderblue;
 }
 
 
-.Login button{
+.UserSignup button{
   background-color: green;
   color: white;
-  padding: 15px;
-  margin: 0 0 15px;
+  padding: 10px;
+  margin: 0 0 5px;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 98%;
 }
 
-.Login a{
+.UserSignup a{
     font-family: sans- serif;
-    color: honeydew;
+    color: blue;
     text-decoration: none;
     font-size: 14px;
     padding: 0;
-    margin: 0 0 15px;
+    margin: 0 0 10px;
    
 }

@@ -2,10 +2,11 @@ body{
     margin: 0;
     padding: 0;
     background-position: center;
-    background-image: url("Image1.png");
+    background-color: skyblue;
 }
 
-h2{
+h2
+{
     text-align: center;
     font-size: 25px;
     font-family: sans-serif;
@@ -13,12 +14,18 @@ h2{
     text-shadow: 2px 2px black;
 }
 
-.LoginPage{
+h3{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: darkbrown;
+    text-align: center;
+}
+
+.ResetLink{
   width: 360px;
   padding: 10px 0 0;
   margin: auto;
-  background: transparent;
-    
+  background: transparent;  
 }
 
 .form{
@@ -30,36 +37,34 @@ h2{
     left: 50%;
     color: deepskyblue;
     position: absolute;
+    opacity: 1;
 }
 
 
-.Login input{
-   
-    padding: 15px;
-    margin: 0 0 15px;
+.Reset input{
+    padding: 10px;
+    margin: 0 0 10px;
     border-style: solid;
     outline: 1;
     width: 91%;
     background-color: powderblue;
 }
 
-
-.Login button{
-  background-color: green;
-  color: white;
-  padding: 15px;
-  margin: 0 0 15px;
-  border: none;
-  cursor: pointer;
-  width: 100%;
+.Reset select{
+    padding: 10px;
+    margin: 0 0 10px;
+    border: 2px solid black;
+    outline: 1;
+    width: 98%;
+    background-color: powderblue;
 }
 
-.Login a{
-    font-family: sans- serif;
-    color: honeydew;
-    text-decoration: none;
-    font-size: 14px;
-    padding: 0;
-    margin: 0 0 15px;
-   
+.Reset button{
+  background-color: green;
+  color: white;
+  padding: 10px;
+  margin: 0 0 5px;
+  border: none;
+  cursor: pointer;
+  width: 98%;
 }
